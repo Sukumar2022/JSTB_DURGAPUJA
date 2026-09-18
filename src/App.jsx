@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom"
 // Layout & Pages
 import AppLayout from "./layouts/AppLayout"; // Verify your file paths
 import HomePage from "./pages/HomePage";
-import About from "./component/AboutAndCountdown"; // Check exact component names
+import About from "./pages/AboutPage"; 
 import PujaGallery from "./pages/PujaGallery";
 import PujaCommittee from "./pages/PujaCommittee";
 import Contact from "./pages/PujaContact";
