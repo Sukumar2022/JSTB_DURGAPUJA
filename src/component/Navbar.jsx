@@ -82,7 +82,7 @@ const Navbar = () => {
                 "
               >
                 <img
-                  src="/public/images/logo.png"
+                  src="./public/images/logo.png"
                   alt="Digital Puja"
                   className="h-12 w-auto"
                 />
