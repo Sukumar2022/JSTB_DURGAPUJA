@@ -82,7 +82,7 @@ const Navbar = () => {
                 "
               >
                 <img
-                 src="../public/images/logo.png"
+                 src="https://scontent.fccu2-1.fna.fbcdn.net/v/t39.30808-1/805885664_2968297510173004_4261543334592077283_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s200x200&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Ep9zfk8y0fUQ7kNvwHfUwX0&_nc_oc=Ado6ZhW8Fetq5oprVyvaxaCy0mi7_qCMIgoPeENi0eoAZbf-uY7NO8heV5HlRDL0cqk&_nc_zt=24&_nc_ht=scontent.fccu2-1.fna&_nc_gid=aqjpxzyiyfQNXMn99rXlDw&_nc_ss=7b2a8&oh=00_AQJyF5vUVvmbNZHxSmnak1aVf8RsDE0SIUU7Gmqfux-42A&oe=6AB357AF"
                   alt="Digital Puja"
                   className="h-12 w-auto"
                 />
