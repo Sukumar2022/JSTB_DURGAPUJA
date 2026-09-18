@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500;600;700&family=Hind+Siliguri:wght@400;600;700&family=Noto+Serif+Bengali:wght@500;700&display=swap');
+
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .font-bengali-sans {
+    font-family: 'Anek Bangla', sans-serif;
+  }
+  .font-bengali-serif {
+    font-family: 'Noto Serif Bengali', serif;
+  }
+  .font-bengali-ui {
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+}
+
+
+.font-dm-serif {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
