@@ -3,26 +3,11 @@ import { NavLink, Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navigation = [
-  {
-    name: "Home",
-    path: "/",
-  },
-  {
-    name: "About",
-    path: "/about",
-  },
-  {
-    name: "Committee",
-    path: "/committee",
-  },
-  {
-    name: "Gallery",
-    path: "/gallery",
-  },
-  {
-    name: "Contact",
-    path: "/contact",
-  },
+  { name: "Home", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "Committee", path: "/committee" },
+  { name: "Gallery", path: "/gallery" },
+  { name: "Contact", path: "/contact" },
 ];
 
 const Navbar = () => {
@@ -59,16 +44,12 @@ const Navbar = () => {
 
         <div className="mx-auto max-w-[1400px] px-5 sm:px-8 lg:px-12">
           <div className="flex h-[72px] items-center justify-between">
-            {/* ================================================= */}
-            {/* LOGO */}
-            {/* ================================================= */}
-
+            {/* ================= LOGO ================= */}
             <Link
               to="/"
               onClick={() => setMenuOpen(false)}
               className="group flex items-center gap-3"
             >
-              {/* Lotus Logo */}
               <div
                 className="
                   relative
@@ -97,11 +78,11 @@ const Navbar = () => {
                     font-semibold
                     tracking-wide
                     text-[#f7eee2]
-                    sm:text-[21px]
                     uppercase
+                    sm:text-[21px]
                   "
                 >
-                  Jujarsaha Singhabahinitala 
+                  Jujarsaha Singhabahinitala
                 </h1>
 
                 <p
@@ -115,15 +96,12 @@ const Navbar = () => {
                     sm:text-[8px]
                   "
                 >
-                 Barowari Durga Puja Committee
+                  Barowari Durga Puja Committee
                 </p>
               </div>
             </Link>
 
-            {/* ================================================= */}
-            {/* DESKTOP NAVIGATION */}
-            {/* ================================================= */}
-
+            {/* ================= DESKTOP NAVIGATION ================= */}
             <nav className="hidden items-center gap-8 lg:flex xl:gap-10">
               {navigation.map((item) => (
                 <NavLink
@@ -181,10 +159,7 @@ const Navbar = () => {
               ))}
             </nav>
 
-            {/* ================================================= */}
-            {/* DESKTOP REGISTER BUTTON */}
-            {/* ================================================= */}
-
+            {/* ================= DESKTOP LOGIN BUTTON ================= */}
             <div className="hidden items-center gap-5 lg:flex">
               <Link
                 to="/admin-login"
@@ -209,16 +184,12 @@ const Navbar = () => {
                   hover:shadow-[0_5px_18px_rgba(231,171,52,0.3)]
                 "
               >
-              <i class="ri-user-shared-line  text-[15px]"></i>
-
+                <i className="ri-user-shared-line text-[15px]" />
                 <span>Login</span>
               </Link>
             </div>
 
-            {/* ================================================= */}
-            {/* MOBILE MENU BUTTON */}
-            {/* ================================================= */}
-
+            {/* ================= MOBILE MENU BUTTON ================= */}
             <button
               type="button"
               onClick={() => setMenuOpen(!menuOpen)}
@@ -250,29 +221,14 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* ===================================================== */}
-      {/* MOBILE MENU */}
-      {/* ===================================================== */}
-
+      {/* ================= MOBILE MENU ================= */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div
-            initial={{
-              opacity: 0,
-              height: 0,
-            }}
-            animate={{
-              opacity: 1,
-              height: "auto",
-            }}
-            exit={{
-              opacity: 0,
-              height: 0,
-            }}
-            transition={{
-              duration: 0.25,
-              ease: "easeInOut",
-            }}
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
             className="
               overflow-hidden
               border-b
@@ -312,7 +268,6 @@ const Navbar = () => {
                     {({ isActive }) => (
                       <>
                         <span>{item.name}</span>
-
                         <i
                           className={`
                             text-lg
@@ -329,7 +284,7 @@ const Navbar = () => {
                 ))}
               </div>
 
-              {/* Mobile Register */}
+              {/* Mobile Login Button */}
               <Link
                 to="/admin-login"
                 onClick={() => setMenuOpen(false)}
@@ -352,8 +307,8 @@ const Navbar = () => {
                   shadow-lg
                 "
               >
-                <i className="ri-user-add-line text-lg" />
-                Login
+                <i className="ri-user-shared-line text-lg" />
+                <span>Login</span>
               </Link>
             </nav>
           </motion.div>
