@@ -32,7 +32,7 @@ export default function Footer() {
           >
             <div className="flex items-center space-x-3 font-dm-serif">
               <img
-                  src="/public/images/logo.png"
+                  src="/images/logo.png"
                   alt="Digital Puja"
                   className="h-12 w-auto"
                 />
