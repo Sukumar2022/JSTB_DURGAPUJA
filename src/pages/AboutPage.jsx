@@ -31,7 +31,7 @@ const highlights = [
 
 // Timeline / Milestones Data
 const milestones = [
-  { year: '2020', title: 'The Start', desc: 'All started with a small group of passionate individuals.' },
+  { year: '2019', title: 'The Start', desc: 'All started with a small group of passionate individuals.' },
   { year: '2020', title: 'Best Pratima Award', desc: 'Received the highest honor for our artistic presentation.' },
   { year: '2025', title: 'Eco-Puja Pioneer', desc: 'Switched 100% to eco-friendly clay, organic dyes, and zero-plastic pandals.' },
   { year: '2026', title: '7+ Years of Glory', desc: 'Continuing a rich legacy of warmth, grand rituals, and community bonding.' }
