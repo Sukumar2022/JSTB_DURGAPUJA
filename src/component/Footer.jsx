@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from "react-router-dom";
 
 const navLinks = [
   { name: 'Home', href: '/' },
@@ -53,28 +54,29 @@ export default function Footer() {
           </motion.div>
 
           {/* Column 2: Navigation Links & Copyright */}
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="flex flex-col items-center space-y-3"
-          >
-            <nav className="flex flex-wrap justify-center gap-6">
-              {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="text-sm font-medium text-[#fbeee0] hover:text-[#e5a93c] transition-colors duration-200"
-                >
-                  {link.name}
-                </a>
-              ))}
-            </nav>
-            <p className="text-xs text-[#d0a890]">
-              &copy; 2026-2027 Durga Puja. All rights reserved.
-            </p>
-          </motion.div>
+           <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="flex flex-col items-center space-y-3"
+            >
+              <nav className="flex flex-wrap justify-center gap-6">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.name}
+                    to={link.href}
+                    className="text-sm font-medium text-[#fbeee0] hover:text-[#e5a93c] transition-colors duration-200"
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+              </nav>
+            
+              <p className="text-xs text-[#d0a890]">
+                &copy; 2026-2027 Durga Puja. All rights reserved.
+              </p>
+        </motion.div>
 
           {/* Column 3: CDN Social Icons & Credits */}
           <motion.div 
