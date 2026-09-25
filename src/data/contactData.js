@@ -1,10 +1,10 @@
 export const contactDetails = {
-  phone: "+91 98300 12345",
-  whatsapp: "+91 98300 12345",
+  phone: "+91 9874255129",
+  whatsapp: "+91 9874255129",
   whatsappMessage: "Hello! I would like to get in touch with the Barowari Durga Puja Committee.",
   email: "contact@barowaripuja.org",
   address: "Jujersha Singhabahinitala, Panchla, Howrah, West Bengal, 711302, Howrah, India, 711302",
-  bengaliAddress: "জুজারসাহা সিংহবাহিনীতলা, পাঁচলা, হাওড়া, পশ্চিমবঙ্গ, ৭১১৩০২, হাওড়া, ভারত, ৭১১৩০২"
+  bengaliAddress: "জুজারসাহা সিংহবাহিনীতলা, পাঁচলা, হাওড়া, পশ্চিমবঙ্গ, ৭১১৩০২, ভারত"
 }; 
  
 export const emergencyContacts = [
