@@ -65,8 +65,8 @@ export const galleryItems = [
   },
   {
     id: 9,
-    title: 'Our first puja in 2020',
-    bengali: 'আমাদের প্রথম পূজা 2020',
+    title: 'Our first puja in 2019',
+    bengali: 'আমাদের প্রথম পূজা 2019',
     category: 'Tradition',
     image: '/images/gallery/2020.jpg',
     description: 'A memorable moment from our first Puja celebration in 2020, capturing the essence of devotion, community spirit, and the joy of coming together to honor Maa Durga during the festival.'
@@ -81,7 +81,7 @@ export const galleryItems = [
   },
   {
     id: 11,
-    title: '1st Prize in 2020',
+    title: '1st Prize in 2019',
     bengali: '2020 এর 1st Prize',
     category: 'Art & Theme',
     image: '/images/gallery/prize.jpg',
