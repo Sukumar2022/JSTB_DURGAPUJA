@@ -92,7 +92,7 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center space-x-3 justify-center lg:justify-start">
               <i className="ri-map-pin-line text-[#e5a93c] text-lg"></i>
-              <span>Burir Math, Singhabahinitala - Jujersaha,Panchla,Howrah</span>
+              <span>Jujersaha Pallishree Nabin Sangha- Playing Ground, Singhabahinitala - Jujersaha,Panchla,Howrah</span>
             </div>
           </motion.div>
 
@@ -104,7 +104,7 @@ export default function HeroSection() {
             className="pt-4"
           >
             <Link
-              href="/about"
+              to="/about"
               className="inline-flex items-center space-x-2 bg-[#e5a93c] hover:bg-[#d4972b] text-[#580a0a] font-bold px-7 py-3 rounded-full text-sm transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-yellow-500/20"
             >
               <span>Explore Now</span>
