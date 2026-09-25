@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 // Key Highlights Data
 const highlights = [
@@ -286,14 +287,14 @@ export default function AboutPage() {
           </p>
           
           <div className="pt-2 flex justify-center space-x-4">
-            <a 
-              href="#contact"
+            <Link 
+              to="/contact"
               className="bg-[#e5a93c] hover:bg-[#d89f4c] text-[#4a0303] font-bold text-xs px-6 py-2.5 rounded-full transition-colors shadow-lg"
             >
               Contact Committee
-            </a>
+            </Link>
             <a 
-              href="#location"
+              href="https://maps.app.goo.gl/VhqZnm7Gs5JcKKtg8"
               className="border border-[#e5a93c] text-[#fbeee0] hover:bg-[#e5a93c]/20 font-bold text-xs px-6 py-2.5 rounded-full transition-colors"
             >
               Get Location
