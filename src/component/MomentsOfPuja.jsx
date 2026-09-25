@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const galleryImages = [
   {
@@ -89,13 +90,13 @@ export default function MomentsOfPuja() {
           </div>
 
           {/* View Gallery Button */}
-          <a
+          <Link
             href="/gallery"
             className="inline-flex items-center space-x-2 border-2 border-[#e5a93c] hover:bg-[#e5a93c] text-[#fbeee0] hover:text-[#580a0a] text-xs font-bold px-5 py-2.5 rounded-full transition-all duration-300 shadow-lg backdrop-blur-sm bg-black/20"
           >
             <i className="ri-gallery-line text-sm"></i>
             <span>View Gallery</span>
-          </a>
+          </Link>
         </div>
 
         {/* IMAGE GALLERY GRID */}
