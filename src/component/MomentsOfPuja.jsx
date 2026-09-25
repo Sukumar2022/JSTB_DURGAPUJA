@@ -91,7 +91,7 @@ export default function MomentsOfPuja() {
 
           {/* View Gallery Button */}
           <Link
-            href="/gallery"
+            to="/gallery"
             className="inline-flex items-center space-x-2 border-2 border-[#e5a93c] hover:bg-[#e5a93c] text-[#fbeee0] hover:text-[#580a0a] text-xs font-bold px-5 py-2.5 rounded-full transition-all duration-300 shadow-lg backdrop-blur-sm bg-black/20"
           >
             <i className="ri-gallery-line text-sm"></i>
