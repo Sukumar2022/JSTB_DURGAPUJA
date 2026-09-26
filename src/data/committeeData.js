@@ -5,7 +5,7 @@ export const committeeMembers = [
     bengaliName: 'শ্রী প্রবীর চ্যাটার্জী',
     role: 'President',
     bengaliRole: 'সভাপতি',
-    phone: '+91 9874325539',
+    phone: '',
     initials: 'PC'
   },
   {
@@ -14,7 +14,7 @@ export const committeeMembers = [
     bengaliName: 'শ্রী সঞ্জীব মান্না',
     role: 'VICE PRESIDENT',
     bengaliRole: 'সহকারী-সম্পাদক',
-    phone: '+91 9830203344',
+    phone: '',
     initials: 'SM'
   },
   {
@@ -23,7 +23,7 @@ export const committeeMembers = [
     bengaliName: 'রবীন দোয়ারী',
     role: 'SECRETARY',
     bengaliRole: 'সেক্রেটারি ',
-    phone: '+91 9874255129',
+    phone: '',
     initials: 'RD'
   },
   {
@@ -32,7 +32,7 @@ export const committeeMembers = [
     bengaliName: 'মলয় মুখার্জী',
     role: 'ASST. SECRETARY ',
     bengaliRole: 'সহকারী-সেক্রেটারি',
-    phone: '+91 7980010846',
+    phone: '',
     initials: 'MM'
   },
   {
@@ -41,7 +41,7 @@ export const committeeMembers = [
     bengaliName: 'পিন্টু বেরা',
     role: 'ASST. SECRETARY',
     bengaliRole: 'সহকারী-সেক্রেটারি',
-    phone: '+91 9735184463',
+    phone: '',
     initials: 'PB'
   },
   {
@@ -50,7 +50,7 @@ export const committeeMembers = [
     bengaliName: 'জয়দেব দাস',
     role: 'TREASURER',
     bengaliRole: 'কোষাদক্ষ',
-    phone: '+91 9800231432',
+    phone: '',
     initials: 'JD'
   },
   {
@@ -59,7 +59,7 @@ export const committeeMembers = [
     bengaliName: 'অজয় রায়',
     role: 'ASST. TREASURER ',
     bengaliRole: 'সহকারী-কোষাদক্ষ',
-    phone: '+91 9830464843',
+    phone: '',
     initials: 'AR'
   },
   {
@@ -68,7 +68,7 @@ export const committeeMembers = [
     bengaliName: 'অরুণ মান্না',
     role: 'ASST. TREASURER ',
     bengaliRole: 'সহকারী-কোষাদক্ষ',
-    phone: '+91 9874010288',
+    phone: '',
     initials: 'AM'
   },
   {
@@ -77,7 +77,7 @@ export const committeeMembers = [
     bengaliName: 'লক্ষী দাস',
     role: 'ACCOUNTANT',
     bengaliRole: 'হিসাব রক্ষক',
-    phone: '+91 9874010669',
+    phone: '',
     initials: 'LD'
   },
   {
