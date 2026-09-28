@@ -9,18 +9,18 @@ export const galleryItems = [
   },
   {
     id: 2,
-    title: 'Facebook Post',
-    bengali: 'মা দুর্গার উপস্থিতি',
+    title: '2019 Durga Pratima',
+    bengali: '২০১৯ সালের মা দুর্গার মূর্তি',
     category: 'Art & Theme',
-    image: '/images/gallery/post2.jpg',
-    description: 'A facebook post highlighting the cultural significance of our Puja, emphasizing the community spirit and traditional practices that make this festival special.'
+    image: '/images/gallery/img18.jpeg',
+    description: 'A beautifully crafted Maa Durga idol from our 2019 celebration, adorned with traditional attire and ornaments, reflecting the rich cultural heritage and devotion of our community.'
   },
   {
     id: 3,
-    title: 'Maa Durga Pratima',
-    bengali: 'মা দুর্গার মূর্তি',
+    title: '2020 Maa Durga Pratima',
+    bengali: '২০২০ সালের মা দুর্গার মূর্তি',
     category: 'Art & Theme',
-    image: '/images/gallery/img1.jpg',
+    image: '/images/gallery/img20.jpeg',
     description: 'A beautifully crafted Maa Durga idol, adorned with traditional attire and ornaments, placed in a creatively decorated pandal that reflects the rich cultural heritage of the festival.'
   },
   {
@@ -65,8 +65,8 @@ export const galleryItems = [
   },
   {
     id: 9,
-    title: 'Our first puja in 2020',
-    bengali: 'আমাদের প্রথম পূজা 2020',
+    title: 'Our first puja in 2019',
+    bengali: 'আমাদের প্রথম পূজা 2019',
     category: 'Tradition',
     image: '/images/gallery/2020.jpg',
     description: 'A memorable moment from our first Puja celebration in 2020, capturing the essence of devotion, community spirit, and the joy of coming together to honor Maa Durga during the festival.'
@@ -81,7 +81,7 @@ export const galleryItems = [
   },
   {
     id: 11,
-    title: '1st Prize in 2020',
+    title: '1st Prize in 2019',
     bengali: '2020 এর 1st Prize',
     category: 'Art & Theme',
     image: '/images/gallery/prize.jpg',
@@ -94,7 +94,39 @@ export const galleryItems = [
     category: 'Ritual',
     image: '/images/gallery/img7.jpg',
     description: 'A serene moment captured during the evening aarti, where devotees gather to offer prayers and seek blessings from Maa Durga, creating a spiritually uplifting atmosphere filled with devotion and reverence.'
-  }
+  },
+   {
+    id: 13,
+    title: '2020 bijoya Dashami',
+    bengali: '২০২০ এর বিজয় দশমী',
+    category: 'Ritual',
+    image: '/images/gallery/img21.jpeg',
+    description: 'A heartfelt moment from our 2020 Bijoya Dashami celebration, where devotees bid farewell to Maa Durga with prayers, rituals, and a sense of community, marking the end of the festival with joy and devotion.'
+  },
+   {
+    id: 14,
+    title: 'Prize Given to our Committee',
+    bengali: 'আমাদের কমিটির জন্য প্রাইজ',
+    category: 'Culture',
+    image: '/images/gallery/img22.jpeg',
+    description: 'A proud moment for our committee as we receive recognition for our efforts in organizing and celebrating the festival, highlighting our commitment to preserving cultural traditions and fostering community spirit.'
+  },
+  {
+    id: 15,
+    title: 'Sindoor Khela Celebration',
+    bengali: 'সিঁদুর খেলা',
+    category: 'Tradition',
+    image: '/images/gallery/img66.jpeg',
+    description: 'Married women offering vermilion to Maa Durga before farewell on Dashami.'
+  },
+  {
+    id: 16,
+    title: 'kolabou shan yatra',
+    bengali: 'কলাবৌ শান যাত্রা',
+    category: 'Culture',
+    image: '/images/gallery/img77.jpeg',
+    description: 'A proud moment for our committee as we receive recognition for our efforts in organizing and celebrating the festival, highlighting our commitment to preserving cultural traditions and fostering community spirit.'
+  },
 ];
 
 export const categories = ['All', 'Ritual', 'Culture', 'Art & Theme', 'Tradition'];
