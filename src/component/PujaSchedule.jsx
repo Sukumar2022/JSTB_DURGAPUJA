@@ -55,7 +55,7 @@ const fullScheduleData = [
     timing: 'Evening: 5:57 PM – 6:30 PM',
     events: [
       { icon: 'ri-time-line', text: 'Bodhon, Amantran & Adhibas' },
-      { icon: 'ri-store-2-line', text: 'Maddox Square Book Fair Inauguration' }
+      { icon: 'ri-store-2-line', text: 'Bostro Bitaran' }
     ]
   },
   {
